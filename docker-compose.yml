@@ -288,7 +288,7 @@ volumes:
 
 networks:
   shared-network:
-    external: true
+    driver: bridge
   monitoring-network:
     driver: bridge
     name: monitoring-network
