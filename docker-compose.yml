@@ -292,8 +292,6 @@ networks:
   monitoring-network:
     driver: bridge
     name: monitoring-network
-    external: true
   kodus-backend-services:
     driver: bridge
     name: kodus-backend-services
-    external: true
